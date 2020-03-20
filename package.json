@@ -1,0 +1,16 @@
+{
+  "name": "cronjob_twilio",
+  "version": "1.0.0",
+  "description": "Explore cronjob and twilio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sachin",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-cron": "^2.0.3",
+    "twilio": "^3.41.1"
+  }
+}
