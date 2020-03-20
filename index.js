@@ -1,4 +1,3 @@
-
 require('dotenv').config()
 var cron = require('node-cron');
 
@@ -13,7 +12,7 @@ function sendMessage(){
     .create({
         body: 'Hi you have just won a precise smile type yor message here http://thesachin.in/',
         from: '+12057724706',
-        to: '+919050909461'
+        to: '+9190509111111'
     })
     .then(message => console.log(message))
     .catch(err=> console.log("Some error is occured - "+err));
